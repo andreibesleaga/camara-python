@@ -1,0 +1,21 @@
+# File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
+
+from typing import Optional
+
+from ..._models import BaseModel
+
+__all__ = ["SubscriptionDeleteResponse"]
+
+
+class SubscriptionDeleteResponse(BaseModel):
+    """
+    Response for a event-type subscription request managed asynchronously (Creation or Deletion)
+    """
+
+    id: Optional[str] = None
+    """
+    The unique identifier of the subscription in the scope of the subscription
+    manager. When this information is contained within an event notification, this
+    concept SHALL be referred as subscriptionId as per Commonalities Event
+    Notification Model.
+    """
