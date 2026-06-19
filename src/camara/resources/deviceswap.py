@@ -31,7 +31,7 @@ class DeviceswapResource(SyncAPIResource):
         This property can be used as a prefix for any HTTP method call to return
         the raw response object instead of the parsed content.
 
-        For more information, see https://www.github.com/stainless-sdks/camara-python#accessing-raw-response-data-eg-headers
+        For more information, see https://www.github.com/andreibesleaga/camara-python#accessing-raw-response-data-eg-headers
         """
         return DeviceswapResourceWithRawResponse(self)
 
@@ -40,7 +40,7 @@ class DeviceswapResource(SyncAPIResource):
         """
         An alternative to `.with_raw_response` that doesn't eagerly read the response body.
 
-        For more information, see https://www.github.com/stainless-sdks/camara-python#with_streaming_response
+        For more information, see https://www.github.com/andreibesleaga/camara-python#with_streaming_response
         """
         return DeviceswapResourceWithStreamingResponse(self)
 
@@ -144,7 +144,7 @@ class AsyncDeviceswapResource(AsyncAPIResource):
         This property can be used as a prefix for any HTTP method call to return
         the raw response object instead of the parsed content.
 
-        For more information, see https://www.github.com/stainless-sdks/camara-python#accessing-raw-response-data-eg-headers
+        For more information, see https://www.github.com/andreibesleaga/camara-python#accessing-raw-response-data-eg-headers
         """
         return AsyncDeviceswapResourceWithRawResponse(self)
 
@@ -153,7 +153,7 @@ class AsyncDeviceswapResource(AsyncAPIResource):
         """
         An alternative to `.with_raw_response` that doesn't eagerly read the response body.
 
-        For more information, see https://www.github.com/stainless-sdks/camara-python#with_streaming_response
+        For more information, see https://www.github.com/andreibesleaga/camara-python#with_streaming_response
         """
         return AsyncDeviceswapResourceWithStreamingResponse(self)
 
